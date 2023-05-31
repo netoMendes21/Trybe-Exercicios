@@ -1,0 +1,59 @@
+div:hover {
+    border: 6px solid black;
+}
+
+div.primaria  {
+    background-color: aquamarine;
+}
+
+div.secundaria {
+    background-color: red;
+}
+
+div.aux  {
+    background-color: yellow;
+}
+
+div.dark  {
+    background-color: blue;
+}
+
+div.clara  {
+    background-color: grey;
+}
+
+h3#pri {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+}
+
+h3#seg {
+    color: rgb(166, 190, 75);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+h3#com {
+    color: red;
+    font-size: 22px;
+    font-family: arial;
+    font-style:italic;
+}
+
+h3#esc {
+    color:brown;
+    font-size: 28px;
+    font-family: helvetica;
+    font-style:inherit;
+    height: 50px;
+}
+
+h3#cla {
+    color:blueviolet;
+    font-size: 30px;
+    font-family: cursive;
+    font-style:italic;
+}
