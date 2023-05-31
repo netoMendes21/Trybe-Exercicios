@@ -34,6 +34,11 @@ li {
     background-color: pink;
 }
 
+#one:hover {
+    font-weight: bold;
+    color: orangered;
+}
+
 #two:hover {
     font-weight: bold;
     color: rgb(55, 223, 33);
@@ -53,5 +58,11 @@ li {
     font-weight: bold;
     color: green;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 
 
