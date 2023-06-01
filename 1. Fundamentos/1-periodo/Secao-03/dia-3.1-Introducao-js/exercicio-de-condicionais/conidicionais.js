@@ -1,4 +1,4 @@
-var grade=80;
+var grade=60;
 let message;
 if (grade >= 80) {
    message = "Parabéns,você faz parte do grupo de pessoas aprovadas!";
