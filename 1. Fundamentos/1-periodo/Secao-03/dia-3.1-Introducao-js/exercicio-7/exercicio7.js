@@ -1,7 +1,7 @@
 let imposto;
 let inss;
-
 let salarioBruto = 2500;
+
 
 if (salarioBruto <= 1556.94) {
     inss = salarioBruto * 0.08;
