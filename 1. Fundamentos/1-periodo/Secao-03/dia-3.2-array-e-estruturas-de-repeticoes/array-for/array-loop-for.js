@@ -5,7 +5,13 @@ let somaNumbers = 0;
 for (index = 0; index < numbers.length; index += 1) {
 
     somaNumbers = (somaNumbers + numbers[index]);
-} 
+}
 
 const media = somaNumbers / numbers.length;
- console.log (media);
+console.log(media);
+
+if (media > 20) {
+    console.log("O valor da média aritmética é maior que 20");
+} else {
+    console.log("O valor da média aritmética é menor que 20");
+}
