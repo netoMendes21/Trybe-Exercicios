@@ -1,4 +1,4 @@
-const menu = ["Home", "Serviços","Portfólio", "Links"];
+const menu = ["Home","Serviços","Portfólio","Links"];
 
 menu.push ("Contato");
 console.log(menu);
