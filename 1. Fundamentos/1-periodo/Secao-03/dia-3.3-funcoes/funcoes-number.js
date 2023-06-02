@@ -4,33 +4,33 @@ function sumBalance(valor) {
     return balance + valor;
 };
 
-const resultado = sumBalance(20)
+const soma = sumBalance(20)
 
-console.log(resultado);
+console.log(soma);
 
 
-function subBalance(valor) {
-    return balance - valor;
+function subBalance(valor1) {
+    return balance - valor1;
 };
 
-const resultado = sumBalance(20)
+const subtracao = sumBalance(20)
 
-console.log(resultado);
+console.log(subtracao);
 
 
-function mulBalance(valor) {
-    return balance * valor;
+function mulBalance(valor2) {
+    return balance * valor2;
 };
 
-const resultado = mulBalance(4)
+const multiplicacao = mulBalance(4)
 
-console.log(resultado);
+console.log(multiplicacao);
 
 
-function divBalance(valor) {
-    return balance / valor;
+function divBalance(valor3) {
+    return balance / valor3;
 };
 
-const resultado = divBalance(2)
+const divisao = divBalance(2)
 
-console.log(resultado);
+console.log(divisao);
