@@ -1,14 +1,17 @@
 const trybeBankCustomers = ['Oliva', 'Nat', 'Gus'];
 
-let cliente = "1";
 
 function addCustomer(customer) {
-    if (typeof customer !== "string") {
-        console.log("O parâmetro passado deve ser do tipo string");
-    } else {
-        trybeBankCustomers.push(customer)
-        console.log(trybeBankCustomers);
+    for (let index = 0; index < customer.length; index += 1) {
+
+        if (typeof customer[index] !== "string") {
+            console.log(`O parâmetro: ${customer[index]} não é uma string`);
+        
+        } else if (!trybeBankCustomers.includes(customer[index])){
+            trybeBankCustomers.push(customer[index])
+        }
     }
+    return trybeBankCustomers;
 }
 
-addCustomer(cliente);
+console.log(addCustomer(["Nat", "Maria", 50]));
