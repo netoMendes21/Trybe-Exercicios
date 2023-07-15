@@ -84,7 +84,21 @@ const getNamedBook = () => {
 // console.log(getNamedBook())
 
 function everyoneWasBornOnSecXX() {
-  const autoresDoSeculoXX = Object.values(books).every((book) => book.author.birthYear >= 1900 && book.author.birthYear <= 2000);
+  const autoresDoSeculoXX = Object.values(books).every((book) =>
+    book.author.birthYear >= 1900 && book.author.birthYear <= 2000);
   return autoresDoSeculoXX;
 }
-// console.log(everyoneWasBornOnSecXX());
+console.log(everyoneWasBornOnSecXX());
+
+const someBookWasReleaseOnThe80s = () => {
+  const livroLancado80 = books.some((book) => book.releaseYear >= 1980 && book.releaseYear < 1990);
+  return livroLancado80;
+}
+// console.log(someBookWasReleaseOnThe80s());
+
+const authorUnique = () => {
+  return books.every((book) => 
+  !books.some((bookSome) =>
+  (bookSome.author.birthYear === book.author.birthYear) && (bookSome.author.name !== book.author.name)));
+}
+// console.log(authorUnique());
