@@ -84,5 +84,7 @@ const getNamedBook = () => {
 // console.log(getNamedBook())
 
 function everyoneWasBornOnSecXX() {
-  const autoresDoSeculoXX = books.every()
+  const autoresDoSeculoXX = Object.values(books).every((book) => book.author.birthYear >= 1900 && book.author.birthYear <= 2000);
+  return autoresDoSeculoXX;
 }
+// console.log(everyoneWasBornOnSecXX());
