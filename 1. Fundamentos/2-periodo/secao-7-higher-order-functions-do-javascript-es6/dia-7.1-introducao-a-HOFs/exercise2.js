@@ -70,7 +70,7 @@ const authorBornIn1947 = books.find((nome) => nome.author.birthYear === 1947).au
 const smallerName = () => {
   let nameBook = books[0].name;
   books.forEach((book) => {
-    if(book.name.length < nameBook.length){
+    if (book.name.length < nameBook.length) {
       nameBook = book.name;
     }
   });
@@ -78,3 +78,7 @@ const smallerName = () => {
 }
 // console.log(smallerName());
 
+const getNamedBook = () => {
+  return books.find((book) => book.name.length === 26)
+}
+console.log(getNamedBook())
