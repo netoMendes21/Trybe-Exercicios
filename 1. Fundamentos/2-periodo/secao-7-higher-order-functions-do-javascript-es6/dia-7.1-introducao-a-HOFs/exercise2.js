@@ -81,4 +81,8 @@ const smallerName = () => {
 const getNamedBook = () => {
   return books.find((book) => book.name.length === 26)
 }
-console.log(getNamedBook())
+// console.log(getNamedBook())
+
+function everyoneWasBornOnSecXX() {
+  const autoresDoSeculoXX = books.every()
+}
