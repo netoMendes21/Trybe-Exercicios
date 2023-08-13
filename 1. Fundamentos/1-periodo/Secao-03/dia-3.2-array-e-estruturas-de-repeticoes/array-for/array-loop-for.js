@@ -38,4 +38,3 @@ for (index = 0; index < numbers.length; index += 1) {
         console.log(numerosImpares)
     } 
 }    console.log("Nenhum valor ímpar encontrado");
-
